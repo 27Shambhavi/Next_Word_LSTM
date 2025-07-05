@@ -4,7 +4,7 @@ import pickle
 from keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-<<<<<<< HEAD
+
 # Load the LSTM model
 model = load_model('next_word_lstm.h5')
 
