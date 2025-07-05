@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import numpy as np
 import pickle
@@ -84,4 +84,3 @@ if st.button("Predict Next Word"):
         st.success(f"The next word is: **{next_word}**")
     else:
         st.error("Could not predict the next word.")
->>>>>>> 5d56099ebe44508ff3ddb0302c489040d06a6135
