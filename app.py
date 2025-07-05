@@ -50,10 +50,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load the LSTM model
 model = load_model('next_word_lstm.h5')
-=======
+
 # Load the LSTM model (saved using .keras format)
 model = load_model('next_word_lstm.keras')
->>>>>>> 9063884 (Your message describing the changes)
+
 
 # Load the tokenizer
 with open('tokenizer.pickle', 'rb') as handle:
